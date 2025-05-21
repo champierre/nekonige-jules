@@ -25,3 +25,13 @@ body {
     top: 50%;
     transform: translate(-50%, -50%); /* Center the cat initially */
 }
+
+#mouse {
+    position: absolute;
+    width: 30px; /* You can adjust this as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Initial position will be set by JavaScript, but we can set a default */
+    left: 20%;
+    top: 20%;
+    transform: translate(-50%, -50%); /* Center the mouse initially */
+}
