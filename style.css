@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-area {
+    width: 480px; /* Standard Scratch stage width */
+    height: 360px; /* Standard Scratch stage height */
+    border: 1px solid black;
+    position: relative; /* To position the cat absolutely within this container */
+    overflow: hidden; /* Ensures the cat doesn't go outside the game area */
+    background-color: white;
+}
+
+#cat {
+    position: absolute;
+    width: 50px; /* Placeholder width, adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Initial position will be set by JavaScript, but we can set a default */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Center the cat initially */
+}
